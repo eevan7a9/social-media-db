@@ -1,0 +1,105 @@
+{
+    "posts": [{
+            "id": 1,
+            "title": "My first post heyyyy!!!",
+            "created_at": "2019/07/01",
+            "user_id": 1
+        },
+        {
+            "id": 2,
+            "title": "Whether you’re going through a break up, you’ve just lost your job, or you simply woke up feeling a little insecure this morning—we’ve all had these days.",
+            "created_at": "2019/07/04",
+            "user_id": 1
+        },
+        {
+            "id": 3,
+            "title": "The waves were crashing on the shore; it was a lovely sight.",
+            "created_at": "2019/07/01",
+            "user_id": 2
+        },
+        {
+            "id": 4,
+            "title": "I really want to go to work, but I am too sick to drive.",
+            "created_at": "2019/07/02",
+            "user_id": 1
+        },
+        {
+            "id": 5,
+            "title": "We have a lot of rain in June.",
+            "created_at": "2019/07/04",
+            "user_id": 2
+        },
+        {
+            "id": 6,
+            "title": "She works two jobs to make ends meet; at least, that was her reason for not having time to join us.",
+            "created_at": "2019/07/03",
+            "user_id": 3
+        },
+        {
+            "id": 7,
+            "title": "The body may perhaps compensates for the loss of a true metaphysics.",
+            "created_at": "2019/07/21",
+            "user_id": 2
+        },
+        {
+            "id": 8,
+            "title": "I often see the time 11:11 or 12:34 on clocks.",
+            "created_at": "2019/07/03",
+            "user_id": 3
+        },
+        {
+            "id": 9,
+            "title": "I think I will buy the red car, or I will lease the blue one.",
+            "created_at": "2019/07/14",
+            "user_id": 4
+        },
+        {
+            "id": 10,
+            "title": "A song can make or ruin a person’s day if they let it get to them.",
+            "created_at": "2019/08/24",
+            "user_id": 5
+        },
+        {
+            "id": 11,
+            "title": "Malls are great places to shop; I can find everything I need under one roof.",
+            "created_at": "2019/07/09",
+            "user_id": 4
+        },
+        {
+            "id": 12,
+            "title": "The clock within this blog and the clock on my laptop are 1 hour different from each other.",
+            "created_at": "2019/07/14",
+            "user_id": 4
+        },
+        {
+            "id": 13,
+            "title": "Sometimes it is better to just walk away from things and go back to them later when you’re in a better frame of mind.",
+            "created_at": "2019/08/13",
+            "user_id": 6
+        },
+        {
+            "id": 14,
+            "title": "Don't step on the broken glass.",
+            "created_at": "2019/05/11",
+            "user_id": 6
+        },
+        {
+            "id": 15,
+            "title": "I hear that Nancy is very pretty.",
+            "created_at": "2019/07/01",
+            "user_id": 7
+        },
+        {
+            "id": 16,
+            "title": "I am happy to take your donation; any amount will be greatly appreciated.",
+            "created_at": "2019/08/21",
+            "user_id": 8
+        },
+        {
+            "id": 17,
+            "title": "Answer the phone in a cheerful voice – even if it is a sales person.",
+            "created_at": "2019/08/29",
+            "user_id": 7
+        }
+    ]
+}
