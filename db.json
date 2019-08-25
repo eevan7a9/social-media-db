@@ -44,7 +44,7 @@
         {
             "id": 8,
             "title": "I often see the time 11:11 or 12:34 on clocks.",
-            "created_at": "2019/07/03",
+            "created_at": "2019/07/05",
             "user_id": 3
         },
         {
@@ -100,6 +100,63 @@
             "title": "Answer the phone in a cheerful voice – even if it is a sales person.",
             "created_at": "2019/08/29",
             "user_id": 7
+        }
+    ],
+    "users": [{
+            "id": 1,
+            "username": "luffy",
+            "email": "luffy@fakemail.org",
+            "password": "password",
+            "created_at": "2019/07/01"
+        },
+        {
+            "id": 2,
+            "username": "nami",
+            "email": "nami@fakemail.org",
+            "password": "password",
+            "created_at": "2019/07/01"
+        },
+        {
+            "id": 3,
+            "username": "zorro",
+            "email": "zorro@fakemail.org",
+            "password": "password",
+            "created_at": "2019/07/05"
+        },
+        {
+            "id": 4,
+            "username": "violet",
+            "email": "angelita@fakemail.org",
+            "password": "password",
+            "created_at": "2019/07/09"
+        },
+        {
+            "id": 5,
+            "username": "brook",
+            "email": "brook@fakemail.org",
+            "password": "password",
+            "created_at": "2019/05/11"
+        },
+        {
+            "id": 6,
+            "username": "nico robin",
+            "email": "brook@fakemail.org",
+            "password": "password",
+            "created_at": "2019/07/01"
+        },
+        {
+            "id": 7,
+            "username": "sanji",
+            "email": "brook@fakemail.org",
+            "password": "password",
+            "created_at": "2019/07/01"
+        },
+        {
+            "id": 8,
+            "username": "chopper",
+            "email": "brook@fakemail.org",
+            "password": "password",
+            "created_at": "2019/08/21"
         }
     ]
 }
