@@ -1,105 +1,121 @@
 {
     "posts": [{
             "id": 1,
+            "user_id": 1,
             "title": "My first post heyyyy!!!",
-            "created_at": "2019/07/01",
-            "user_id": 1
+            "created_at": "2019/07/01"
+
         },
         {
             "id": 2,
+            "user_id": 1,
             "title": "Whether you’re going through a break up, you’ve just lost your job, or you simply woke up feeling a little insecure this morning—we’ve all had these days.",
-            "created_at": "2019/07/04",
-            "user_id": 1
+            "created_at": "2019/07/04"
+
         },
         {
             "id": 3,
+            "user_id": 2,
             "title": "The waves were crashing on the shore; it was a lovely sight.",
-            "created_at": "2019/07/01",
-            "user_id": 2
+            "created_at": "2019/07/01"
+
         },
         {
             "id": 4,
+            "user_id": 1,
             "title": "I really want to go to work, but I am too sick to drive.",
-            "created_at": "2019/07/02",
-            "user_id": 1
+            "created_at": "2019/07/02"
+
         },
         {
             "id": 5,
+            "user_id": 2,
             "title": "We have a lot of rain in June.",
-            "created_at": "2019/07/04",
-            "user_id": 2
+            "created_at": "2019/07/04"
         },
         {
             "id": 6,
+            "user_id": 3,
             "title": "She works two jobs to make ends meet; at least, that was her reason for not having time to join us.",
-            "created_at": "2019/07/03",
-            "user_id": 3
+            "created_at": "2019/07/03"
+
         },
         {
             "id": 7,
+            "user_id": 2,
             "title": "The body may perhaps compensates for the loss of a true metaphysics.",
-            "created_at": "2019/07/21",
-            "user_id": 2
+            "created_at": "2019/07/21"
+
         },
         {
             "id": 8,
+            "user_id": 3,
             "title": "I often see the time 11:11 or 12:34 on clocks.",
-            "created_at": "2019/07/05",
-            "user_id": 3
+            "created_at": "2019/07/05"
+
         },
         {
             "id": 9,
+            "user_id": 4,
             "title": "I think I will buy the red car, or I will lease the blue one.",
-            "created_at": "2019/07/14",
-            "user_id": 4
+            "created_at": "2019/07/14"
+
         },
         {
             "id": 10,
+            "user_id": 5,
             "title": "A song can make or ruin a person’s day if they let it get to them.",
-            "created_at": "2019/08/24",
-            "user_id": 5
+            "created_at": "2019/08/24"
+
         },
         {
             "id": 11,
+            "user_id": 4,
             "title": "Malls are great places to shop; I can find everything I need under one roof.",
-            "created_at": "2019/07/09",
-            "user_id": 4
+            "created_at": "2019/07/09"
+
         },
         {
             "id": 12,
+            "user_id": 4,
             "title": "The clock within this blog and the clock on my laptop are 1 hour different from each other.",
-            "created_at": "2019/07/14",
-            "user_id": 4
+            "created_at": "2019/07/14"
+
         },
         {
             "id": 13,
+            "user_id": 6,
             "title": "Sometimes it is better to just walk away from things and go back to them later when you’re in a better frame of mind.",
-            "created_at": "2019/08/13",
-            "user_id": 6
+            "created_at": "2019/08/13"
+
         },
         {
             "id": 14,
+            "user_id": 6,
             "title": "Don't step on the broken glass.",
-            "created_at": "2019/05/11",
-            "user_id": 6
+            "created_at": "2019/05/11"
+
         },
         {
             "id": 15,
+            "user_id": 7,
             "title": "I hear that Nancy is very pretty.",
-            "created_at": "2019/07/01",
-            "user_id": 7
+            "created_at": "2019/07/01"
+
         },
         {
             "id": 16,
+            "user_id": 8,
             "title": "I am happy to take your donation; any amount will be greatly appreciated.",
-            "created_at": "2019/08/21",
-            "user_id": 8
+            "created_at": "2019/08/21"
+
         },
         {
             "id": 17,
+            "user_id": 7,
             "title": "Answer the phone in a cheerful voice – even if it is a sales person.",
-            "created_at": "2019/08/29",
-            "user_id": 7
+            "created_at": "2019/08/29"
+
         }
     ],
     "users": [{
@@ -158,5 +174,147 @@
             "password": "password",
             "created_at": "2019/08/21"
         }
+    ],
+    "comments": [{
+            "id": 1,
+            "post_id": 1,
+            "user_id": 2,
+            "message": "Rain on Your Parade",
+            "created_at": "2019/07/01"
+        },
+        {
+            "id": 2,
+            "post_id": 1,
+            "user_id": 3,
+            "message": "No Ifs, Ands, or Buts",
+            "created_at": "2019/07/03"
+        },
+        {
+            "id": 3,
+            "post_id": 2,
+            "user_id": 3,
+            "message": "It was then the joyous cigarette met the considerate honey.",
+            "created_at": "2019/07/06"
+        },
+        {
+            "id": 4,
+            "post_id": 3,
+            "user_id": 1,
+            "message": "Is the decay bus better than the drive?",
+            "created_at": "2019/07/05"
+        },
+        {
+            "id": 5,
+            "post_id": 4,
+            "user_id": 1,
+            "message": "Is the scrape finish better than the bird?",
+            "created_at": "2019/07/05"
+        },
+        {
+            "id": 6,
+            "post_id": 4,
+            "user_id": 7,
+            "message": "The impassioned tune weighs into the vibrant home.",
+            "created_at": "2019/07/05"
+        },
+        {
+            "id": 7,
+            "post_id": 9,
+            "user_id": 7,
+            "message": "The acceptable camera can't suck the plenty.",
+            "created_at": "2019/07/15"
+        },
+        {
+            "id": 8,
+            "post_id": 5,
+            "user_id": 3,
+            "message": "Did the garrulous original really multiply the assignment?",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 9,
+            "post_id": 11,
+            "user_id": 3,
+            "message": "The floppy area straps into the emotional career.",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 10,
+            "post_id": 7,
+            "user_id": 6,
+            "message": "Did the nonsensical drama really hug the lake?",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 11,
+            "post_id": 7,
+            "user_id": 6,
+            "message": "The edible blue compares into the severe bonus.",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 12,
+            "post_id": 8,
+            "user_id": 6,
+            "message": "It was then the flashy feel met the hefty life.",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 13,
+            "post_id": 11,
+            "user_id": 8,
+            "message": "The jumpy glass can't reach the detail.",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 14,
+            "post_id": 4,
+            "user_id": 6,
+            "message": "The edible blue compares into the severe bonus.",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 15,
+            "post_id": 6,
+            "user_id": 7,
+            "message": "The official disk can't mug the active.",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 16,
+            "post_id": 15,
+            "user_id": 6,
+            "message": "The proper ride avoids into the ambitious concept.",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 17,
+            "post_id": 15,
+            "user_id": 3,
+            "message": "What if the disgusted carpet ate the maintenance?",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 18,
+            "post_id": 16,
+            "user_id": 7,
+            "message": "Did the advanced two really occur the past?",
+            "created_at": "2019/07/25"
+        },
+        {
+            "id": 19,
+            "post_id": 16,
+            "user_id": 7,
+            "message": "Is the start window better than the foot?",
+            "created_at": "2019/07/23"
+        },
+        {
+            "id": 20,
+            "post_id": 16,
+            "user_id": 2,
+            "message": "It was then the warlike chemical met the utter switch.",
+            "created_at": "2019/08/25"
+        }
+
     ]
 }
